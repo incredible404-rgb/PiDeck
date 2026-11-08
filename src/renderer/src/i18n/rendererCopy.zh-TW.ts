@@ -2,7 +2,7 @@
  * 本文件由 `node scripts/genZhTwCopy.mjs` 生成，请勿手改。
  * 文案改动请修改对应的 zh-CN 源文件后重新生成；转换规则见该脚本的 OVERRIDES。
  * 注释刻意保留简体：属于开发者视角文本，不面向用户。
- * source-sha256: 1b0f1096ecd4af69ae21ea39b55445773376675468823e25e3986ac608060083（来自 src/renderer/src/i18n/rendererCopy.zh-CN.ts 的词典区块指纹，由 tests/zhTwCopy.test.mjs 校验新鲜度）
+ * source-sha256: 15ac21424364bf79e7044699828b946668fed8659e54a601d03322cf39bf0309（来自 src/renderer/src/i18n/rendererCopy.zh-CN.ts 的词典区块指纹，由 tests/zhTwCopy.test.mjs 校验新鲜度）
  */
 import { mainProcessZhTW } from "../../../shared/i18n/mainProcessCopy.zh-TW";
 import type { TranslationKey } from "./rendererCopy.zh-CN";
@@ -1412,7 +1412,10 @@ export const zhTW: Record<TranslationKey, string> = {
 	"ask.unanswered": "未回答",
 	"ask.waiting": "等待回答",
 	"ask.batchTitle": "提問（{count} 題）",
-	"ask.batchProgress": "已答 {done}/{total}",
+	"ask.batchProgress": "已完成 {done}/{total}",
+	"ask.batchSkip": "跳過此題",
+	"ask.batchSkipped": "已跳過",
+	"ask.floatDragHint": "拖動移動提問卡，雙擊回到右下角",
 	"ask.batchNext": "下一題",
 	"ask.batchPrev": "上一題",
 	"ask.batchReviewTab": "提交審閱",

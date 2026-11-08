@@ -1415,6 +1415,7 @@ export const enUS: Record<TranslationKey, string> = {
 	"ask.batchSkip": "Skip",
 	"ask.batchSkipped": "Skipped",
 	"ask.floatDragHint": "Drag to move the question card; double-click to reset",
+	"ask.batchUsePrefill": "Use suggested text",
 	"ask.batchNext": "Next",
 	"ask.batchPrev": "Previous",
 	"ask.batchReviewTab": "Review",

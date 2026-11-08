@@ -1409,6 +1409,7 @@ export const zhCN = {
 	"ask.batchSkip": "跳过此题",
 	"ask.batchSkipped": "已跳过",
 	"ask.floatDragHint": "拖动移动提问卡，双击回到右下角",
+	"ask.batchUsePrefill": "采用预填",
 	"ask.batchNext": "下一题",
 	"ask.batchPrev": "上一题",
 	"ask.batchReviewTab": "提交审阅",
